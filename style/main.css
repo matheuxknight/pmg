@@ -1,0 +1,58 @@
+	body{
+		margin:0;
+	}
+	#background{    
+		width: 100%;
+		min-width: 1920px;
+    		overflow: hidden;
+    		height: 100%;
+    		position: fixed;
+    		z-index: -99;
+	}
+	#container{    
+		background: black;
+    		text-align: center;
+   		position: relative;
+    		height: 100%;
+    		margin: auto;
+    		display: table;
+    		width: 100%;
+    		opacity: 0.7;
+		color:white;
+		font-family: 'Raleway', sans-serif;
+	}
+	#container span{    
+    		font-size: 72px;
+    		vertical-align: middle;
+    		display: table-cell;
+	}
+	#container g{
+		color:#eb6d20
+	}
+	#container #footer-icons a{
+		text-transform:none;
+		color:white;
+	}
+	#container span i{    
+		font-size: 3em;
+		color: ivory;
+	}
+	#container .clock{
+		padding-top:40px;
+	}
+	#footer-icons{
+		display:table-footer-group;
+	}
+	#container .social-icons{
+		font-size:42px;
+		padding:40px 15px;
+	}
+	.fa-facebook-square{
+		color:#3B5998;
+	}
+	.fa-etsy{
+		color:#eb6d20
+	}
+	.fa-envelope{
+		color:lightblue;
+	}
